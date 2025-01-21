@@ -21,8 +21,8 @@ import React from 'react'
               <div>
                 <h4 className="font-bold mb-4">Contact Info</h4>
                 <ul className="text-neutral-400 space-y-2">
-                  <li>Email: niajee@typni.com</li>
-                  <li>Phone: +1 (234) 567-890</li>
+                  <li>Email: niaje@typni.com</li>
+                  <li>Phone: +254705329860</li>
                 </ul>
               </div>
               <div>

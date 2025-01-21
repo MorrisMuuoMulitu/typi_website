@@ -1,6 +1,7 @@
 import React from 'react'
     import { Link } from 'react-router-dom'
     import { motion } from 'framer-motion'
+    import HamburgerMenu from './HamburgerMenu'
 
     export default function Navbar() {
       return (
@@ -14,12 +15,17 @@ import React from 'react'
             <Link to="/" className="text-2xl font-bold">
               TYPNI
             </Link>
+            
+            {/* Desktop Navigation */}
             <div className="space-x-8 hidden md:flex">
-              <Link to="/competitions">Competitions</Link>
-              <Link to="/ux-competition">UI/UX Competition</Link>
+              <Link to="/">Home</Link>
               <Link to="/about">About</Link>
+              <Link to="/services">Services</Link>
               <Link to="/contact">Contact</Link>
             </div>
+
+            {/* Mobile Navigation */}
+            <HamburgerMenu />
           </div>
         </motion.nav>
       )
