@@ -1,4 +1,6 @@
-export default function Contact() {
+import React from 'react'
+
+    export default function Contact() {
       return (
         <div className="container mx-auto px-4 py-8">
           <h1 className="text-4xl font-bold mb-8">Contact Us</h1>
@@ -32,8 +34,8 @@ export default function Contact() {
             <div>
               <h2 className="text-2xl font-bold mb-4">Contact Information</h2>
               <div className="space-y-2">
-                <p>Email: niajee@typni.com</p>
-                <p>Phone: +1 (234) 567-890</p>
+                <p>Email: niaje@typni.com</p>
+                <p>Phone: +254705329860</p>
               </div>
             </div>
           </div>
