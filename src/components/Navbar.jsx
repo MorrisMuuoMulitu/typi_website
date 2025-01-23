@@ -17,7 +17,7 @@ export default function Navbar() {
           <motion.img 
             src={logo} 
             alt="TYPNI Logo" 
-            className="h-20 md:h-32 lg:h-40 xl:h-48 object-contain"
+            className="h-20 md:h-28 lg:h-32 xl:h-36 object-contain"
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 300 }}
           />

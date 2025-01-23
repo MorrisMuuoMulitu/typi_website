@@ -68,13 +68,13 @@ import React from 'react'
                       loading="lazy"
                     />
                     <img
-                      src="https://ik.imagekit.io/5zp8ovb7c/Greatscope/francis.webp?updatedAt=1708025159939"
+                      src="https://ik.imagekit.io/5zp8ovb7c/Niaje/Charlene.png?updatedAt=1737633173609"
                       alt="Participant 2"
                       className="w-12 h-12 rounded-full border-2 border-white"
                       loading="lazy"
                     />
                     <img
-                      src="https://ik.imagekit.io/5zp8ovb7c/Greatscope/francis.webp?updatedAt=1708025159939"
+                      src="https://ik.imagekit.io/5zp8ovb7c/Niaje/Morris.png?updatedAt=1737633358296"
                       alt="Participant 3"
                       className="w-12 h-12 rounded-full border-2 border-white"
                       loading="lazy"
@@ -82,7 +82,7 @@ import React from 'react'
                   </div>
                   <div>
                     <p className="text-sm">Join <span className="font-semibold">1000+</span> young innovators</p>
-                    <p className="text-xs text-neutral-400">From Kenya & worldwide</p>
+                    <p className="text-xs text-neutral-400">From +254 & Worldwide</p>
                   </div>
                 </motion.div>
               </div>
