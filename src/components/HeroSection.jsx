@@ -62,27 +62,27 @@ import React from 'react'
                 >
                   <div className="flex -space-x-4">
                     <img
-                      src="/src/assets/avatars/avatar1.jpg"
+                      src="https://ik.imagekit.io/5zp8ovb7c/Greatscope/francis.webp?updatedAt=1708025159939"
                       alt="Participant 1"
                       className="w-12 h-12 rounded-full border-2 border-white"
                       loading="lazy"
                     />
                     <img
-                      src="/src/assets/avatars/avatar2.jpg"
+                      src="https://ik.imagekit.io/5zp8ovb7c/Greatscope/francis.webp?updatedAt=1708025159939"
                       alt="Participant 2"
                       className="w-12 h-12 rounded-full border-2 border-white"
                       loading="lazy"
                     />
                     <img
-                      src="/src/assets/avatars/avatar3.jpg"
+                      src="https://ik.imagekit.io/5zp8ovb7c/Greatscope/francis.webp?updatedAt=1708025159939"
                       alt="Participant 3"
                       className="w-12 h-12 rounded-full border-2 border-white"
                       loading="lazy"
                     />
                   </div>
                   <div>
-                    <p className="text-sm">Join <span className="font-semibold">5000+</span> young innovators</p>
-                    <p className="text-xs text-neutral-400">From 120+ countries worldwide</p>
+                    <p className="text-sm">Join <span className="font-semibold">1000+</span> young innovators</p>
+                    <p className="text-xs text-neutral-400">From Kenya & worldwide</p>
                   </div>
                 </motion.div>
               </div>
@@ -95,7 +95,7 @@ import React from 'react'
                 transition={{ duration: 0.6, delay: 0.2 }}
               >
                 <img
-                  src="/src/assets/hero-illustration.svg"
+                  src="https://ik.imagekit.io/5zp8ovb7c/Greatscope/services.webp?updatedAt=1708026305068"
                   alt="Young innovators collaborating"
                   className="w-full max-w-lg mx-auto"
                   loading="lazy"
