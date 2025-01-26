@@ -8,10 +8,10 @@ export default function Navbar() {
     <nav className="flex items-center space-x-8">
       {/* Desktop Navigation */}
       <div className="hidden md:flex space-x-8">
-        <Link to="/" className="text-lg lg:text-xl hover:text-primary transition-colors">Home</Link>
-        <Link to="/about" className="text-lg lg:text-xl hover:text-primary transition-colors">About</Link>
-        <Link to="/competitions" className="text-lg lg:text-xl hover:text-primary transition-colors">Competitions</Link>
-        <Link to="/contact" className="text-lg lg:text-xl hover:text-primary transition-colors">Contact</Link>
+        <Link to="/" className="text-lg lg:text-xl hover:text-primary transition-colors" aria-label="Home">Home</Link>
+        <Link to="/about" className="text-lg lg:text-xl hover:text-primary transition-colors" aria-label="About">About</Link>
+        <Link to="/competitions" className="text-lg lg:text-xl hover:text-primary transition-colors" aria-label="Competitions">Competitions</Link>
+        <Link to="/contact" className="text-lg lg:text-xl hover:text-primary transition-colors" aria-label="Contact">Contact</Link>
       </div>
 
       {/* Mobile Navigation */}

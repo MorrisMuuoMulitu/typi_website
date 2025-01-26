@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header className="bg-white shadow-md py-4">
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <Link to="/" className="hover:opacity-80 transition-opacity">
+        <Link to="/" className="hover:opacity-80 transition-opacity" aria-label="Home">
           <OttopadLogo />
         </Link>
         <Navbar />
