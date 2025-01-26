@@ -1,27 +1,28 @@
-import React, { useState, useRef, useEffect } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import React, { useState, useRef, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 export default function HamburgerMenu() {
-  const [isOpen, setIsOpen] = useState(false)
-  const menuRef = useRef(null)
+  const [isOpen, setIsOpen] = useState(false);
+  const menuRef = useRef(null);
 
   // Close menu when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
-        setIsOpen(false)
+        setIsOpen(false);
       }
-    }
+    };
 
-    document.addEventListener('mousedown', handleClickOutside)
+    document.addEventListener('mousedown', handleClickOutside);
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside)
-    }
-  }, [])
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen)
-  }
+    setIsOpen(!isOpen);
+  };
 
   return (
     <div className="md:hidden">
@@ -91,40 +92,40 @@ export default function HamburgerMenu() {
               {/* Menu Items */}
               <ul className="flex-1 px-6 py-8 space-y-2">
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     onClick={() => setIsOpen(false)}
                     className="flex items-center px-4 py-3 text-lg text-neutral-700 hover:text-primary hover:bg-primary/5 rounded-lg transition-all duration-200"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/about"
+                  <Link
+                    to="/about"
                     onClick={() => setIsOpen(false)}
                     className="flex items-center px-4 py-3 text-lg text-neutral-700 hover:text-primary hover:bg-primary/5 rounded-lg transition-all duration-200"
                   >
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/services"
+                  <Link
+                    to="/competitions"
                     onClick={() => setIsOpen(false)}
                     className="flex items-center px-4 py-3 text-lg text-neutral-700 hover:text-primary hover:bg-primary/5 rounded-lg transition-all duration-200"
                   >
-                    Services
-                  </a>
+                    Competitions
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/contact"
+                  <Link
+                    to="/contact"
                     onClick={() => setIsOpen(false)}
                     className="flex items-center px-4 py-3 text-lg text-neutral-700 hover:text-primary hover:bg-primary/5 rounded-lg transition-all duration-200"
                   >
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
 
@@ -139,5 +140,5 @@ export default function HamburgerMenu() {
         )}
       </AnimatePresence>
     </div>
-  )
+  );
 }
